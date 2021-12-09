@@ -1,7 +1,7 @@
 Problema 1.
 Incercati la temele din trecut sa va creati jar-uri si sa le rulati din linia de comanda. (Oricare vreti voi)
 
-Problema 1.
+Problema 2.
 Sa se creeze un program maven in care sa se implementeze urmatoarele cerinte.
 1. Se va creea o clasa Carte ce va contine proprietatile: autor, titlu, an, pret
 2. Se va crea o clasa Biblioteca ce va contine o lista de carti. ( List<Carte> listaDeCarti)
