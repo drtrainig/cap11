@@ -1,0 +1,18 @@
+Problema 1.
+Incercati la temele din trecut sa va creati jar-uri si sa le rulati din linia de comanda. (Oricare vreti voi)
+
+Problema 1.
+Sa se creeze un program maven in care sa se implementeze urmatoarele cerinte.
+1. Se va creea o clasa Carte ce va contine proprietatile: autor, titlu, an, pret
+2. Se va crea o clasa Biblioteca ce va contine o lista de carti. ( List<Carte> listaDeCarti)
+Avand la baza acestea sa se implementeze in clasa Biblioteca urmatoarele metode:
+m1. O metoda care va returna o lista de carti scrise de un anumit autor. Asta inseamna ca metoda va primi ca parametru un String ce va reprezenta numele autorului.
+    Se va returna o lista de carti ce va contine cartile autorului respectiv.
+
+m2. O metoda care va returna o lista de carti dintr-o anumita perioada. Asta inseamna ca metoda va primi ca parametri doua valori ce va reprezenta anii. (Ex: 1880 si 1890)
+    Se va returna o lista de carti ce va contine cartile scrise intre acei ani.
+    Sugestie (verificare va fi "carte.getAn() < anMaiMare && carte.getAn() > anMaiMic").
+
+m3. O metoda care va returna o carte dupa titlu
+
+m4. O metoda care va adauga o carte in lista. Daca acea carte exista deja se va arunca o exceptie. Creati o exceptie prorprie. Ex: LibraryException
